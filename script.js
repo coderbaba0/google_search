@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     async function fetchSearchResults(query) {
-        const apiKey = '4ae5312ee07942c9f723dd58d2cb49f1d9714d54781ac72776ef0e3364bab003'; // Replace 'your_serpapi_api_key' with your actual SerpApi API key
+        const apiKey = 'api_key'; // Replace 'your_serpapi_api_key' with your actual SerpApi API key
         const searchEngine = 'google'; // You can specify other search engines like 'bing', 'yahoo', etc.
         const apiUrl = `https://serpapi.com/search.json?q=${query}&engine=${searchEngine}&apiKey=${apiKey}`;
 
